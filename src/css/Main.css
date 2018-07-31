@@ -64,7 +64,7 @@ body {
 }
 .key-area .keys .key:hover {
     background: #f0f0f0;
-   box-shadow: inset 0 0 20px #f0f0f0;
+    box-shadow: inset 0 0 20px #f0f0f0;
 }
 .key-area .keys .key:nth-child(1) {
     border-left: 1px solid #ccc;
@@ -79,6 +79,11 @@ body {
     box-shadow: 0 20px #111;
     border-radius: 0 0 4px 4px;
     cursor: pointer;
+    z-index: 1000;
+}
+.key-area .keys .black:hover {
+    background: #111;
+    box-shadow: inset 0 0 10px #222;
 }
 .key-area .keys .black:nth-child(1) {
     left: 22px;
